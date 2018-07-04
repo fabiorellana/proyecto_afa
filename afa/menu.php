@@ -1,0 +1,96 @@
+
+<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"><span>Proyecto A.F.A</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="inicioasociacion.php">Home</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nuevos Registros <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="registroinformeturno.php">Registrar Informe de Turno</a>
+                </li>
+                <li>
+                  <a href="ingresofechas.php">Registrar Fechas</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Crear Nuevo <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="registroturno.php">Crear Nuevo Turno</a>
+                </li>
+                <li>
+                  <a href="registroclub.php">Crear Nuevo Club</a>
+                </li>
+                  <li>
+                  <a href="registrocomite.php">Crear Nuevo comite de disciplina</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Notificaciones <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="#">Notificaciones de solicitud de Traspasos</a>
+                </li>
+                <li>
+                  <a href="#">Another Recepcion de Turno</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Traspasos <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="#">Gestion de Traspasos</a>
+                </li>
+                <li>
+                  <a href="#">Historial de Traspasos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Administrar <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="administrarturno.php">Administrar turno</a>
+                </li>
+                <li>
+                  <a href="administrarclub.php">Admnistrar Club </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="ingresarresultados.html">Resultados</a>
+            </li>
+            <li>
+              <a href="#">Informes</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="btn btn-block btn-danger 
+ dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sesión <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="#">Modificar Datos</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="" onclick="<?php include("php/cerrarsesion.php"); cerrar_sesion();?> ">Cerrar Sesión</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
